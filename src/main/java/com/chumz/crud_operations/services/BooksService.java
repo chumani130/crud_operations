@@ -14,8 +14,8 @@ public interface BooksService {
     List<BookResponse> fetchBookList();
 
     // update
-    BookResponse updateBook(BookRequest bookRequest, Integer id);
+    BookResponse updateBook(BookRequest bookRequest, Long id);
 
     // delete
-    void deleteBookById(Integer id);
+    void deleteBookById(Long id);
 }
