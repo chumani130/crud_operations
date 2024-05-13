@@ -14,5 +14,5 @@ public class BookResponse {
 
     private String name;
     private String author;
-    private int price;
+    private String price;
 }
